@@ -1,4 +1,4 @@
-#Google Maps API - traduce indirizzo in coordinate
+//Google Maps API - traduce indirizzo in coordinate
 function geocodeAddress(geocoder, resultsMap) {
 
     geocoder.geocode({'address': address}, function(results, status) {
